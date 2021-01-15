@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+body {
+	font: 14px "맑은 고딕";
+}
+footer {
+	width: 967px;
+	padding: 20px 0;
+	background-color: #271717;
+	text-align: center;
+	color: #fff;
+	clear: both;
+}
+.container {
+	position: absolute;
+	width: 960px;
+	margin: 0 auto;
+	background-color: #fff;
+	border: 1px solid #e7ee7e7;
+}
+header {
+	position: relative; /*상대좌표*/
+	height: 280px;
+	background-image: url('../images/bg.png');
+	background-repeat: no repeat; /*배경반복없음*/
+	background-position: left top;
+}
+header h1 {
+	position: absolute;
+	right: 20px;
+	bottom: 70px;
+	font-size: 3em;
+	color: #ffc;
+	text-shadow: 1px 2px 2px #000;
+}
+
+header h2 {
+	position: absolute;
+	right: 20px;
+	bottom: 30px;
+	font-size: 3em;
+	color: #ff0;
+	text-shadow: 0px 2px 1px #000;
+	
+}
+.navi {
+	position: relative;
+	background: #271717;
+	margin-top: -15px;
+	width: 960px;
+	height: 60px;
+	
+}
+.navi ul {
+	list-style: none; /*볼릿제거*/
+	height: 40px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.navi ul li {
+	display: inline; /*인라인요소로 변경*/
+	float: left;
+	font-size: 15px;
+	
+}
+.navi a, .navi a:visited {
+	padding: 10px 5px 5px 35px;
+	display: block;
+	color: #fff;
+	width: 150px;
+	text-decoration: none;
+}
+.navi a:hover, .navi a:active, .navi a:focus {
+	text-shadow: 0px 2px 2px #000;
+	color: #fc0;
+}
+.sidebar {
+	float: right;
+	width: 200px;
+	height: 550px;
+	background-color: #dfd;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.sidevar img {
+	margin-bottom: 5px;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+.content {
+	background-color: #ffffff;
+	padding-top: 5px;
+	padding-left: 10px;
+	width: 720px;
+	float: left;
+}
+header, section, footer, aside, articel, figure {
+	display: black;
+}
+.banner {
+	margin: 0 10px 15px 10px;
+	padding: 0;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <!-- 머리말 -->
+    <h1>제주도 민박</h1>
+    <h2>가장 제주다운 민박집</h2>
+  </header>
+  <nav class="navi">
+    <!-- 메뉴 -->
+    <ul>
+      <li><a href="#">이용 안내</a></li>
+      <li><a href="#">객실 소개</a></li>
+      <li><a href="#">예약 방법</a></li>
+      <li><a href="#">예약하기</a></li>
+    </ul>
+  </nav>
+  <article>
+    <!-- 컨텐츠 -->
+    <section class="content">
+      <h2>제주 민박 소개</h2>
+      <h3>제주 서귀포 게스트 하우스 형식의 농어촌 민박입니다.</h3>
+      <p>성산의 날씨는 여름평균 섭씨 27도 내외로서 바람이 쾌적한 날이
+      많습니다. </p>
+      <p>성산의 날씨는 여름평균 섭씨 27도 내외로서 바람이 쾌적한 날이
+      많습니다. </p>
+      <p>성산의 날씨는 여름평균 섭씨 27도 내외로서 바람이 쾌적한 날이
+      많습니다. </p>
+      <p>성산의 날씨는 여름평균 섭씨 27도 내외로서 바람이 쾌적한 날이
+      많습니다. </p>
+      <p>성산의 날씨는 여름평균 섭씨 27도 내외로서 바람이 쾌적한 날이
+      많습니다. </p>
+      <div class="banner">
+        <img alt="제주민박" 
+        src="../html/images/jeju3.png" width="700" height="300">
+      </div>
+    </section>
+  </article>
+  <aside class="sidebar">
+    <h3>알립니다</h3>
+    <p>게스트하우스 예약은 전화 010-####-#### 로 직접 통화하시는게
+    가장 정확하고 빠릅니다. </p>
+    <img alt="" src="../images/pic1.jpg">
+    <img alt="" src="../images/pic2.jpg">
+  </aside>
+  <footer>
+    <p>제주특별자치도 서귀포시 성산읍 </p>
+    <address>
+      예약문의 010-1234-1234 
+      <a href="mailto:minpark@gmail.com">minpark@gmail.com</a>
+    </address>
+    <p>Copyright &copy;. All rights reserved </p>
+  </footer>
+</div>
+</body>
+</html>
